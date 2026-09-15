@@ -1,0 +1,20 @@
+name: mipl
+channels:
+  - defaults
+dependencies:
+  - gxx_linux-64=11
+  - cmake
+  - packaging=24.2
+  - git
+  - gcc_linux-64=11
+  - ninja
+  - wheel=0.45.1
+  - setuptools=75.8.0
+  - pip=24.3.1
+  - python=3.10
+  - cuda-cudart-dev=12.4.127
+  - cuda-nvcc=12.4.131
+  - cuda-cccl=12.4.127
+  - cuda-driver-dev=12.4.127
+  - scikit-learn
+prefix: /seu_share2/home/213220104/.conda/envs/mipl

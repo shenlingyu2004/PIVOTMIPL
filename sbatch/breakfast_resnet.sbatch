@@ -1,0 +1,18 @@
+python main.py \
+  --mat_path MIPL_datasets/breakfast/breakfast_resnet_is1_pure.mat \
+  --index_path MIPL_datasets/breakfast/5index \
+  --nr_fea 2048 --nr_class 10 --normalize False \
+  --seed 123 --fold 0 --epochs 40 --num_prototypes 6 \
+  --ot_eps 0.07 --occupancy_weight 0.01 \
+  --label_momentum 0.9 \
+  --time_root_iters 12 --teacher_projection_iters 120 \
+  --plan_tol 0.000001 \
+  --temporal_hidden 512 --temporal_layers 4 \
+  --temporal_ffn_expand 4 --temporal_dropout 0.1 \
+  --mamba_d_state 128 --mamba_d_conv 4 --mamba_expand 2 \
+  --mamba_headdim 64 --mamba_chunk_size 256 \
+  --motion_kernel 5 --motion_dilation_1 1 --motion_dilation_2 2 \
+  --temporal_lr_scale 0.1 --lr 0.005 --reg 0.0 --grad_clip 5.0 \
+  --eval_interval 5 --num_workers 8 --prefetch_factor 2 \
+  --persistent_workers True --pin_memory True \
+  --exp_dir "./logs_pivotmipl_breakfast_resnet_fold0"
