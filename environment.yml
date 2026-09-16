@@ -17,4 +17,3 @@ dependencies:
   - cuda-cccl=12.4.127
   - cuda-driver-dev=12.4.127
   - scikit-learn
-prefix: /seu_share2/home/213220104/.conda/envs/mipl
