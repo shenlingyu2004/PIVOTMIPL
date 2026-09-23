@@ -1,6 +1,6 @@
 PIVOTMIPL: *Plan Inference via Variable-Occupancy Transport for Multi-Instance Partial-Label learning*
 The algorithm frame work is shown in the figure below:
-
+![Framework](./PIVOTMIPL.pdf)
 The structure of PIVOTMIPL project is
 ```text
 PIVOTMIPL/
