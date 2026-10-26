@@ -4,12 +4,12 @@ The algorithm frame work is shown in the figure below:
 The structure of PIVOTMIPL project is
 ```text
 PIVOTMIPL/
-├── main.py          # 训练与评估入口
-├── model.py         # PIVOTMIPL 模型与训练目标
-├── dataloader.py    # MAT 数据读取、数据集及候选标签更新
-├── utils.py         # 参数解析、特征类型识别与随机种子
-├── environment.yaml # python环境
-└── sbatch/          # 正式实验的 Slurm 启动脚本，共 12 个
+├── main.py
+├── model.py
+├── dataloader.py
+├── utils.py
+├── environment.yaml
+└── sbatch/
     ├── breakfast_dinov3.sbatch
     ├── breakfast_mae.sbatch
     ├── breakfast_resnet.sbatch
